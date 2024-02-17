@@ -81,7 +81,7 @@
                     <h4 class="card-title"><?php echo $produk['nama'];  ?></h4>
                       <p class="card-text text-truncate"><?php echo $produk['detail'];  ?></p>
                       <p class="card-text"><?php echo $produk['harga'];  ?></p>
-                      <a href="produk-detail.php?nama=<?php echo $produk['nama'];  ?>" class="btn warna2 text-white">Lihat Detail</a>
+                      <a href="produk-detail.php?nama=<?php echo $produk['nama'];  ?>" class="btn warna2 btn-outline-warning text-white">Lihat Detail</a>
                     </div>
                   </div>
               </div>

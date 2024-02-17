@@ -26,8 +26,8 @@
   <div class="container-fluid">
     <div class="container py-5">
       <div class="row">
-        <div class="col-lg-5 mb-5">
-          <img src="image/<?php echo $produk['foto']; ?>" class="w-100" alt="">
+        <div class="col-lg-5 mb-5 ">
+          <img src="image/<?php echo $produk['foto']; ?>" class="w-100 box-img-produk-terkait" alt="">
         </div>
         <div class="col-lg-6 offset-lg-1">
           <h1><?php echo $produk['nama']; ?></h1>

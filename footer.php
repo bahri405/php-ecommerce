@@ -3,18 +3,18 @@
     <div class="container">
       <h5 class="text-center mb-4">Temui kami</h5>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center ">
       <div class="col-sm-1 d-flex justify-content-center mb-2">
-        <i class="fab fa-facebook fs-2"></i>
+        <i class="fab fa-facebook fs-2 icon"></i>
       </div>
       <div class="col-sm-1 d-flex justify-content-center mb-2">
-        <i class="fab fa-instagram fs-2"></i>
+        <i class="fab fa-instagram fs-2 icon"></i>
       </div>
       <div class="col-sm-1 d-flex justify-content-center mb-2">
-        <i class="fab fa-youtube fs-2"></i>
+        <i class="fab fa-youtube fs-2 icon"></i>
       </div>
       <div class="col-sm-1 d-flex justify-content-center mb-2">
-        <i class="fab fa-whatsapp fs-2"></i>
+        <i class="fab fa-whatsapp fs-2 icon"></i>
       </div>
     </div>
 </div> 

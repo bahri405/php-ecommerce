@@ -26,7 +26,7 @@
           <form action="produk.php" method="get">
             <div class="input-group input-group-lg my-4">
               <input type="text" class="form-control" placeholder="Nama Barang" aria-label="Recipient's username" name="keyword" aria-describedby="basic-addon2" >
-              <button type="submit" class="btn warna2 text-white">Telusuri</button>
+              <button type="submit" class="btn btn-outline-warning warna2 text-white">Telusuri</button>
             </div>
           </form>
       </div>
@@ -61,7 +61,7 @@
   <div class="container-fluid warna3 py-5">
     <div class="container text-center">
       <h3>Tentang Kami</h3>
-      <p class="fs-5 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem, vitae eligendi doloribus laboriosam aperiam deleniti libero molestias non suscipit quas reiciendis blanditiis assumenda debitis! Blanditiis delectus deserunt necessitatibus adipisci dolorem, fugit aliquid earum dignissimos porro cum ex vitae possimus illo pariatur iure sequi reprehenderit molestiae quos magnam voluptate alias modi quod facere. Perferendis ducimus harum est possimus ad quaerat totam labore, quia quos dicta, unde modi itaque atque magni quam impedit eveniet aut hic inventore dolorem. Nihil, hic aliquam!</p>
+      <p class="fs-5 mt-3">Slurrr id merupakan toko online terpercaya , tercepat , terbaik , dan barangnya berkualitas untuk memenuhi fashion kamu . Mempermudah kamu untuk membeli barang yang kamu inginkan tanpa harus keluar rumah. Sudah berdisi sejak 2023</p>
     </div>
   </div>
 
@@ -76,11 +76,11 @@
                 <div class="image-box">
                 <img src="image/<?php echo $data['foto'];?>" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body">
+                <div class="card-body ">
                 <h4 class="card-title"><?php echo $data['nama'];?></h4>
                   <p class="card-text text-truncate"><?php echo $data['detail'];?></p>
                   <p class="card-text"><?php echo $data['harga'];?></p>
-                  <a href="produk-detail.php?nama=<?php echo $data['nama'];?>" class="btn warna2 text-white">Lihat Detail</a>
+                  <a href="produk-detail.php?nama=<?php echo $data['nama'];?>" class="btn btn-outline-warning warna2 text-white ">Lihat Detail</a>
                 </div>
               </div>
             </div>
